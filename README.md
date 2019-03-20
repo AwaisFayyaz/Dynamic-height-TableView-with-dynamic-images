@@ -30,5 +30,9 @@ tweet me @abulkhairawais
 or mail me @ awaisfayyaz17@gmail.com
 
 Awais Fayyaz
-iOS Developer
+
+iOS Developer @ BugDevStudios.com
+
+Lahore, PAK
+
 
