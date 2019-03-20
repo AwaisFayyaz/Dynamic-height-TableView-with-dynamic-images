@@ -25,9 +25,14 @@ Height of image is calculated based on the screen width, while maintaining image
 
 If any Questions or Queries
 
-
 tweet me @abulkhairawais
 or mail me @ awaisfayyaz17@gmail.com
+
+# Related Links
+
+The following article shows how to implement dynamic cells that contain labels only. Concepts from the below artile were used in this demo. (I Recommended to read it also)
+
+https://medium.com/mobile-app-developers/self-sizing-cells-40b9cc8c8fc5
 
 Awais Fayyaz
 
