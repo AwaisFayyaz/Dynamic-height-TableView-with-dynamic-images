@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C47DE62224227B600186A4A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C47DE61224227B600186A4A /* TableViewCell.swift */; };
+		0CA3175422421BEE00A6787E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3175322421BEE00A6787E /* AppDelegate.swift */; };
+		0CA3175622421BEE00A6787E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3175522421BEE00A6787E /* ViewController.swift */; };
+		0CA3175922421BEE00A6787E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA3175722421BEE00A6787E /* Main.storyboard */; };
+		0CA3175B22421BF800A6787E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA3175A22421BF800A6787E /* Assets.xcassets */; };
+		0CA3175E22421BF800A6787E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA3175C22421BF800A6787E /* LaunchScreen.storyboard */; };
+		A32B5DBC6FAC3DD9122D8D6F /* Pods_SO_Question__TableVCell_with_varying_height.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F308425E4AF67310916E74F9 /* Pods_SO_Question__TableVCell_with_varying_height.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C47DE61224227B600186A4A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0CA3175022421BEE00A6787E /* SO Question: TableVCell with varying height.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SO Question: TableVCell with varying height.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA3175322421BEE00A6787E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CA3175522421BEE00A6787E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CA3175822421BEE00A6787E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CA3175A22421BF800A6787E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CA3175D22421BF800A6787E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CA3175F22421BF800A6787E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E622641D99B39A2B97DCC2B /* Pods-SO Question: TableVCell with varying height.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SO Question: TableVCell with varying height.release.xcconfig"; path = "Target Support Files/Pods-SO Question: TableVCell with varying height/Pods-SO Question: TableVCell with varying height.release.xcconfig"; sourceTree = "<group>"; };
+		D85E4C881E843F77DA6DCBB8 /* Pods-SO Question: TableVCell with varying height.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SO Question: TableVCell with varying height.debug.xcconfig"; path = "Target Support Files/Pods-SO Question: TableVCell with varying height/Pods-SO Question: TableVCell with varying height.debug.xcconfig"; sourceTree = "<group>"; };
+		F308425E4AF67310916E74F9 /* Pods_SO_Question__TableVCell_with_varying_height.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SO_Question__TableVCell_with_varying_height.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CA3174D22421BEE00A6787E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32B5DBC6FAC3DD9122D8D6F /* Pods_SO_Question__TableVCell_with_varying_height.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CA3174722421BEE00A6787E = {
+			isa = PBXGroup;
+			children = (
+				0CA3175222421BEE00A6787E /* SO Question: TableVCell with varying height */,
+				0CA3175122421BEE00A6787E /* Products */,
+				2175FA94CE74AF52F5DEEC5B /* Pods */,
+				CF8B120DB83EEBF620B649A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0CA3175122421BEE00A6787E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CA3175022421BEE00A6787E /* SO Question: TableVCell with varying height.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CA3175222421BEE00A6787E /* SO Question: TableVCell with varying height */ = {
+			isa = PBXGroup;
+			children = (
+				0CA3175322421BEE00A6787E /* AppDelegate.swift */,
+				0CA3175522421BEE00A6787E /* ViewController.swift */,
+				0C47DE61224227B600186A4A /* TableViewCell.swift */,
+				0CA3175722421BEE00A6787E /* Main.storyboard */,
+				0CA3175A22421BF800A6787E /* Assets.xcassets */,
+				0CA3175C22421BF800A6787E /* LaunchScreen.storyboard */,
+				0CA3175F22421BF800A6787E /* Info.plist */,
+			);
+			path = "SO Question: TableVCell with varying height";
+			sourceTree = "<group>";
+		};
+		2175FA94CE74AF52F5DEEC5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D85E4C881E843F77DA6DCBB8 /* Pods-SO Question: TableVCell with varying height.debug.xcconfig */,
+				7E622641D99B39A2B97DCC2B /* Pods-SO Question: TableVCell with varying height.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF8B120DB83EEBF620B649A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F308425E4AF67310916E74F9 /* Pods_SO_Question__TableVCell_with_varying_height.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CA3174F22421BEE00A6787E /* SO Question: TableVCell with varying height */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA3176222421BF800A6787E /* Build configuration list for PBXNativeTarget "SO Question: TableVCell with varying height" */;
+			buildPhases = (
+				0B4AAA031BD04039EC07659D /* [CP] Check Pods Manifest.lock */,
+				0CA3174C22421BEE00A6787E /* Sources */,
+				0CA3174D22421BEE00A6787E /* Frameworks */,
+				0CA3174E22421BEE00A6787E /* Resources */,
+				7671EDA7623DE1740534137E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SO Question: TableVCell with varying height";
+			productName = "SO Question: TableVCell with varying height";
+			productReference = 0CA3175022421BEE00A6787E /* SO Question: TableVCell with varying height.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CA3174822421BEE00A6787E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "BugDev Studios";
+				TargetAttributes = {
+					0CA3174F22421BEE00A6787E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 0CA3174B22421BEE00A6787E /* Build configuration list for PBXProject "SO Question: TableVCell with varying height" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CA3174722421BEE00A6787E;
+			productRefGroup = 0CA3175122421BEE00A6787E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CA3174F22421BEE00A6787E /* SO Question: TableVCell with varying height */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CA3174E22421BEE00A6787E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA3175E22421BF800A6787E /* LaunchScreen.storyboard in Resources */,
+				0CA3175B22421BF800A6787E /* Assets.xcassets in Resources */,
+				0CA3175922421BEE00A6787E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B4AAA031BD04039EC07659D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SO Question: TableVCell with varying height-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7671EDA7623DE1740534137E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SO Question: TableVCell with varying height/Pods-SO Question: TableVCell with varying height-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SO Question: TableVCell with varying height/Pods-SO Question: TableVCell with varying height-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CA3174C22421BEE00A6787E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C47DE62224227B600186A4A /* TableViewCell.swift in Sources */,
+				0CA3175622421BEE00A6787E /* ViewController.swift in Sources */,
+				0CA3175422421BEE00A6787E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0CA3175722421BEE00A6787E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CA3175822421BEE00A6787E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CA3175C22421BF800A6787E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CA3175D22421BF800A6787E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CA3176022421BF800A6787E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CA3176122421BF800A6787E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CA3176322421BF800A6787E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D85E4C881E843F77DA6DCBB8 /* Pods-SO Question: TableVCell with varying height.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSBXBST436;
+				INFOPLIST_FILE = "SO Question: TableVCell with varying height/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BugdevStudios.SO-Question--TableVCell-with-varying-height";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CA3176422421BF800A6787E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E622641D99B39A2B97DCC2B /* Pods-SO Question: TableVCell with varying height.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSBXBST436;
+				INFOPLIST_FILE = "SO Question: TableVCell with varying height/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BugdevStudios.SO-Question--TableVCell-with-varying-height";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CA3174B22421BEE00A6787E /* Build configuration list for PBXProject "SO Question: TableVCell with varying height" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA3176022421BF800A6787E /* Debug */,
+				0CA3176122421BF800A6787E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CA3176222421BF800A6787E /* Build configuration list for PBXNativeTarget "SO Question: TableVCell with varying height" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA3176322421BF800A6787E /* Debug */,
+				0CA3176422421BF800A6787E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CA3174822421BEE00A6787E /* Project object */;
+}

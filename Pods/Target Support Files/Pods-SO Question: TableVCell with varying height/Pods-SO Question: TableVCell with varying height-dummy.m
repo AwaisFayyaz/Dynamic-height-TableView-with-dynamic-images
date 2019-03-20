@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_SO_Question__TableVCell_with_varying_height : NSObject
+@end
+@implementation PodsDummy_Pods_SO_Question__TableVCell_with_varying_height
+@end

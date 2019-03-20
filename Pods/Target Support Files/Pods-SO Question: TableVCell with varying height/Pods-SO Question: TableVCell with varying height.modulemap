@@ -1,0 +1,6 @@
+framework module Pods_SO_Question__TableVCell_with_varying_height {
+  umbrella header "Pods-SO Question: TableVCell with varying height-umbrella.h"
+
+  export *
+  module * { export * }
+}
