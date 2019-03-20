@@ -13,9 +13,14 @@ Each cell should contain 2 labels and an image. content(text) of labels is dynam
 Used a table view with following configuration
 
 number of sections == count of data source
+
 number of rows in a section == 3. 
+
 first row corresponds to title, second row corresponds to subtitle and the 3rd corresponds to the image.
-Height of first row (title) and second row (subtitle) is calculated by tableView itself. (using UITableView.AutomaticDimension). 
+
+Height of first row (title) and second row (subtitle) is calculated by tableView itself. (using 
+UITableView.AutomaticDimension). 
+
 Height of image is calculated based on the screen width, while maintaining image aspect ratio. If aspect ratio is not maintained, image would look stretched.
 
 If any Questions or Queries
